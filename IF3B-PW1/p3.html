@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan ke-3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="home" class="txt-center bg-primary pb-1 mb-5">
+        <!-- heading h1 sd h6 -->
+        <h1>Kota Palembang</h1>
+        <!-- paragraf -->
+        <p>Selamat datang di Kota Palembang</p>
+        <!-- <hr> -->
+    </div>
+    <div>
+        <!-- link navigasi -->
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="https://palembang.go.id/" target="_blank">Web palembang.go.id</a></li>
+        </ul>
+    </div>
+    <div>
+        <img src="images/banner.jpg" alt="Jembatan Ampera" width="100%">
+        <!-- 500px atau 100% -->
+    </div>
+    <div>
+        <h2>Kecamatan</h2>
+        <p>Berikut daftar nama kecamatan di Kota Palembang:</p>
+        <!-- Membuat tabel  -->
+        <table border="1" width="100%">
+            <thead>
+                <!-- baris -->
+                <tr>
+                    <!-- kolom ke-1 -->
+                    <th rowspan="2">No</th>
+                    <!-- kolom ke-2 -->
+                    <th rowspan="2">Nama Kecamatan</th>
+                    <!-- kolom ke-3 -->
+                    <th rowspan="2">Jumlah Kelurahan</th>
+                    <th colspan="2">Jumlah Penduduk</th>
+                </tr>
+                <tr>
+                    <th>Laki</th>
+                    <th>Perempuan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- baris ke-1 -->
+                <tr>
+                    <td>1</td>
+                    <td>Seberang Ulu 1</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>90</td>
+                </tr>
+                <!-- baris ke-2 -->
+                <tr>
+                    <td>2</td>
+                    <td>Seberang Ulu 2</td>
+                    <td>8</td>
+                    <td>70</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- tabel (colspan dan rowspan) -->
+        <h6>Contoh Colspan</h6>
+        <!-- colspan -->
+        <table border="1">
+            <!-- baris ke-1 -->
+            <tr>
+                <td colspan="2">JK</td>
+            </tr>
+            <!-- baris ke-2 -->
+            <tr>
+                <td>Laki-laki</td>
+                <td>Perempuan</td>
+            </tr>
+        </table>
+
+        <h6>Contoh rowspan</h6>
+        <!-- rowspan -->
+        <table border="1">
+            <tr>
+                <td rowspan="2">JK</td>
+                <td>Laki-laki</td>
+            </tr>
+            <tr>
+                <td>Perempuan</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

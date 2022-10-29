@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ctrl+shift+R-->
+    <title>Profil</title>
+    <link  rel="shortcut icon" href="/image/palembang.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h2>Objek Wisata</h2>
+        <!--order list-->
+        <ol>
+            <li>Jemabatan Ampera</li>
+            <li>Benteng Kuto Besak</li>
+            <li>Jakabaring Sport City</li>
+        </ol>
+        <h2>Makanan Khas</h2>
+        <!--type berfungsi untuk mengubah type list-->
+        <ol type="I">
+            <li>Pempek</li>
+            <li>Mie Aloy</li>
+            <li>Sate</li>
+        </ol>
+        <!--unorder list-->
+        <h2>Fasilitas Kesehatan</h2>
+        <ul>
+            <li>RS Moh. Hoesin</li>
+            <li>RS Sriwijaya</li>
+        </ul>
+        <ul type="square">
+            <li>Palembang Square</li>
+            <Li>Palembang Indah Mall</Li>
+        </ul>
+    </div>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <!--kolom 1-->
+                    <th width="5%">No</th>
+                    <!--kolom 2-->
+                    <th width="30%">Nama Walikota</th>
+                    <!--kolom 3-->
+                    <th width="55%%">Foto</th>
+                    <!--kolom 4-->
+                    <th width="10%">Priode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--baris ke 1-->
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">Mr. Sudarman Ganda Subrata</td>
+                    <td align="center"><img src="/image/ganda.jpg" alt="anda kurang beruntung" width="15%"></td>
+                    <td align="center">6</td>
+                </tr>
+                <!--baris ke 2-->
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">R. A. Abusamah(Pejabat Sementara)</td>
+                    <td align="center"><img src="/image/R._A._Abusamah.jpg" alt="anda kurang beruntung" width="15%"></td>
+                    <td align="center"></td>
+                </tr>
+                <!--baris ke 3-->
+                <tr>
+                    <td align="center">3</td>
+                    <td align="center">H.M. Ali Hamin S.H</td>
+                    <td align="center"><img src="/image/H._M._Ali_Amin.jpg" alt="anda kurang beruntung" width="15%"></td>
+                    <td align="center">8</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Formulir Pendaftaran Walikota Palembang</h2>
+        <from action="daftar.html" method="post">
+            <div>
+                Nama Lengkap
+                <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="nama_lengkap">
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="text" name="tanggal_lahir" id="tanggal_lahir">
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="date" name="tangal_lahir" id="tanggal_lahir">
+            </div>
+            <div>
+                Jenis Kelamin <br>
+                <input type="radio" name="jk" id="jk" value="L" checked>Laki-laki
+                <input type="radio" name="jk" id="jk" value="P">Perempuan
+            </div>
+            <div>
+                Alamat <br>
+                <textarea cols="20" name="alamat" id="alamat"></textarea>
+            </div>
+            <div>
+                Partai Pungusung <br>
+                <select name="partai" id="partai">
+                    <option value="PIM">Partai Indonesia Maju</option>
+                    <option value="PILSM">Partai Indonesia Selangkah Lebih Maju</option>
+                    <option value="UMDP">Univesitas Multi Data Palembang</option>
+                </select>
+            </div>
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+
+        </from>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+materi uts
+
+teori
+- 2 soal pengantar teknologi web
+- 2 soal javascript
+- 1 soal html
+- 1 soal css
+
+praktik
+- localstorage/sessionstorage
+- boostrap

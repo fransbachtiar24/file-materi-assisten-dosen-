@@ -1,0 +1,56 @@
+/* external css */
+/* reset default margin dan padding untuk semua elemen pada html*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* elemen selector */
+body {
+    background-color: rgb(138, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* ini komentar di css */
+    /* texti-align: center */
+} 
+ul {
+    /*menghilangkan bullet ul*/
+    list-style-type: none;
+    background-color: aqua;
+    /*overflow: hidden;*/
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+
+}
+li a:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+/* class slector*/
+.txt-center {
+    text-align: center;
+}
+/* contoh memanggil 2 kelas class="txt-center bg-primary"*/
+.bg-primary {
+    background-color: rgb(62, 188, 247);
+    /* topleft | top right | bottom right | buttom left */
+    border-radius: 15px 75px 15px 75px;
+}
+.pb-1 {
+    padding-bottom: 3px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}

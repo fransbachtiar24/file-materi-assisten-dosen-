@@ -1,0 +1,7 @@
+Sumber Video: https://www.youtube.com/hashtag/diindonesiaaja
+
+Copy kode di bawah ini, dan paste-kan ke dalam file HTML.
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/y3Qvhfp-F98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Rekomendasi warna : 
+https://colorhunt.co/
