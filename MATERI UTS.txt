@@ -6,6 +6,9 @@ teori
 - 1 soal html
 - 1 soal css
 
+boleh membuka catatan berupa source code dengan catatan berupa 1 pdf, tidak boleh lebih dari
+1 pdf
+
 praktik
 - localstorage/sessionstorage
 - boostrap

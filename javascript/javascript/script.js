@@ -18,7 +18,6 @@ let txtNpm = document.getElementById("npm");
 let txtNama = document.getElementById("nama");
 let listMhs = document.getElementById("listMahasiswa");
 let tblMhs = document.getElementById("tblMahasiswa");
-
 let data = [];
 // panggil function tampil()
 tampil();
@@ -35,6 +34,8 @@ function simpan() {
 
     // simpan object ke array data
     data.push({ npm: txtNpm.value, nama: txtNama.value });
+
+    // clear
 
     // simpan localStorage dengan key lsMahasiswa
     localStorage.setItem("lsMahasiswa", JSON.stringify(data));
@@ -55,22 +56,33 @@ function simpan() {
 }
 
 function tampil() {
-  // clear elemen listMahasiswa
-  listMhs.innerHTML = "";
   // gunakan forEach
   data.forEach(listData);
 
   // clear elemen tbls mahasiswa
   tblMhs.innerHTML = "";
-
+  listMhs.innerHTML = "";
   // ambil data localStorage dengan key lsMahasiswa
   let dataTampil = JSON.parse(localStorage.getItem("lsMahasiswa"));
   dataTampil.forEach(listData);
 }
 
+function handleDelete() {
+  tblMhs.innerHTML = "";
+  localStorage.removeItem("lsMahasiswa");
+  alert("data terhapus");
+}
+
 function listData(item, index) {
   // innerHTML elemen ul id="listMahasiswa" pada index.html
-  listMhs.innerHTML += "<li>" + item.npm + "-" + item.nama + "</li>";
+  let i = 0;
+  listMhs.innerHTML +=
+    "<li class='list-group-item'>" + item.npm + "-" + item.nama + "</li>";
   // innerHTML elemen table id="tblMahasiswa" pada index.html
-  tblMhs.innerHTML += `<tr><td>${item.npm}</td><td>${item.nama}</td><tr>`;
+  tblMhs.innerHTML += `<tr><td>${item.npm}</td><td>${item.nama}</td> <td>
+  <button type="button" class="btn btn-warning" onclick="handleEdit(${i})">Edit</button>
+  <button type="button" class="btn btn-danger" onclick="handleDelete()">Delete</button>
+  </td><tr>`;
+
+  i++;
 }
