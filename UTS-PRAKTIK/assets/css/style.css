@@ -1,2 +1,70 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #06283D;
+    font-family: sans-serif;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* control navbar */
+.bg-navbar {
+    background: #256D85;
+}
+
+/* control gambar */
+.logo {
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: 1.4s ease;
+    transition: 1.4s ease;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+/* control card */
+.text-formulir h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.form-control {
+    border: 1px solid #256D85;
+}
+
+.btn-go {
+    background: #47B5FF;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+.btn-go:hover {
+    background: #256D85;
+    color: white;
+}
+
+/* control footer */
+footer {
+    font-size: 10px;
+}
+
+.bg-footer {
+    background: #256D85;
 }

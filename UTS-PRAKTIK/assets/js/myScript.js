@@ -38,13 +38,14 @@ const tampil = () => {
 
 const listData = (item) => {
   card.innerHTML += `
-     <div class="card mt-3" style="width: 30rem">
-        <div class="card-body">
-            <h5 class="card-title">${item.nama}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">${item.email}</h6>
-                <p class="card-text">${item.area}
-                </p>
-        </div>
+    <div class = "col-8 col-lg-6" >
+      <div class = "card mb-2" style = "width: 35rem;" >
+        <div class = "card-body" >
+          <h5 class = "card-title" >${item.nama}</h5> 
+          <h6 class = "card-subtitle mb-2 text-muted">${item.email}</h6>
+          <p class = "card-text" >${item.area}</p> 
+        </div> 
+      </div> 
     </div>
     `;
 };
