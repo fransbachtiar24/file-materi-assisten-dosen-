@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#bg-football {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/football-doodle-ornament-soccer-background-soccer-sketch-wallpaper-football-colorful-background_437233-298.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+#content h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#content p {
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+.btn-football {
+  height: 40px;
+  width: 100px;
+  background: #0e5e6f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-football:hover {
+  background: white;
+  color: black;
+}
+
+body {
+  background: #06283d;
+  height: auto;
+  width: 100%;
+}
