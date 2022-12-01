@@ -4,8 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fransbachtiar24&label=Profile%20views&color=0e75b6&style=flat" alt="fransbachtiar24" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fransbachtiar24" alt="fransbachtiar24" /></a> </p>
-
 <h2>Education 🏫</h2>
 <p align="left">
  1. Sma Negeri 1 Tanjung Lubuk | MIPA | Oki, 2017-2020<br>
