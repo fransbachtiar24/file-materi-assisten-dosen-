@@ -6,17 +6,17 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fransbachtiar24" alt="fransbachtiar24" /></a> </p>
 
-- 🔭 I’m currently working on [Booking Tiket Pesawat](https://github.com/fransbachtiar24/FEJS-my-team-booking-tiket-)
-
-- 🌱 I’m currently learning **React js, express js, Laravel, Rest Api, Materi, javascriptal-ui**
-
-- 👨‍💻 All of my projects are available at [https://designrann.000webhostapp.com/](https://designrann.000webhostapp.com/)
-
-- 💬 Ask me about **Website**
-
-- 📫 How to reach me **fransbachtiar4@gmail.com**
-
-- ⚡ Fun fact **I think I'm humble and a little introverted**
+<h2>Education 🏫</h2>
+<p align="left">
+ 1. Sma Negeri 1 Tanjung Lubuk | MIPA | Oki, 2017-2020<br>
+   - representatives of two osis <br>
+   - drum band personnel <br>
+  <br>
+ 2. Universitas Multi Data Palembang | Sistem informasi | Palembang, Active <br>
+   - himsi administrator <br>
+   - following the mardeka campus program, frontend javascript course | Binar batch 3, 2022 <br>
+   - assistant lecturer of Web Programming I | Tehnik informatika | semester 3, september-2022 - januari 2023
+<p/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
